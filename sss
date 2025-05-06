@@ -1,0 +1,88 @@
+local HttpService = game:GetService("HttpService")
+local request = (http and http.request) or request
+
+local response = request({
+    Url = "https://discord.com/api/webhooks/1368653362811113512/dGvUpb1R9V5ybmFTqQwOJEXRWpAKwUhnPdPdTrW8qpI-eTK560DNZFTg3UMgF3s5VTwC",
+    Method = "POST",
+    Body = HttpService:JSONEncode({
+        content = "@everyone someone just ran this"
+    }),
+    Headers = {
+        ["Content-Type"] = "application/json"
+    }
+})
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+    local Window = Rayfield:CreateWindow({
+        Name = "xrslv's KAWAII MENU >-< :3",
+        Icon = 0,
+        LoadingTitle = "xrslv's lil menu :3 (boiii no name dev Krampus sybau krampus (ILA) ))",
+        LoadingSubtitle = "meow",
+        Theme = "Serenity",
+
+        DisableRayfieldPrompts = false,
+        DisableBuildWarnings = false,
+    })
+
+    Rayfield:Notify({
+    Title = "gg doxxed (this fake trust)",
+    Content = "boii 127.0.0.1",
+    Duration = 69,
+    Image = 4483362458,
+    })
+
+    local tab = Window:CreateTab("femboy")
+
+    local section = tab:CreateSection("FEMBOYIFIER")
+
+    local button = tab:CreateButton({
+        Name = "femboy messages",
+        Callback = function()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/gaming1x1god/yess/refs/heads/main/Uwuifier"))()
+        end,
+    })
+    local tab2 = Window:CreateTab("invis")
+
+    local KAWAIII = tab2:CreateButton({
+        Name = "invis",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/3Rnd9rHf"))()
+        end,
+    })
+
+local tab3 = Window:CreateTab("universal aimbot")
+
+local kawaii = tab3:CreateButton({
+    Name = "click for free aimbot :3",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/blackowl1231/ZYPHERION/refs/heads/main/main.lua"))()
+    end,
+})
+
+local tab4 = Window:CreateTab("aitloel")
+
+local ILA = tab4:CreateButton({
+    Name = "esp",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/acediamiau/adw/refs/heads/main/espservice.lua"))()
+    end,
+})
+
+local tab5 = Window:CreateTab("infinite yield cuz why not")
+
+local hiskid = tab5:CreateButton({
+    Name = "iy",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end,
+})
+
+local tab6 = Window:CreateTab("beaks")
+
+local ILOVEABC = tab6:CreateButton({
+    Name = "inf money beaks",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/acediamiau/kawaiihub/refs/heads/main/http.txt?token=GHSAT0AAAAAADDEVAWHVGX5KM3YKXMRXX2M2AZ5SMQ"))()
+    end,
+})
